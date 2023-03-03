@@ -1,3 +1,21 @@
+
+dkpgol5
+/
+Encoderofdhruv
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Beta Try the new code view
+Encoderofdhruv/config.py
+@dkpgol5
+dkpgol5 Update config.py
+ 1 contributor
+25 lines (21 sloc)  840 Bytes
 import os
 import dotenv
 #import SmartEncoder.Database.db.myDB as db
@@ -16,16 +34,10 @@ class Config(object):
   REDIS_PASS = os.environ.get("REDIS_PASS")
   DOWNLOAD_LOCATION = "downloads"
 
-Config.AUTH_USERS = [5585763218]
-Config.API_ID = 3281305
-Config.API_HASH = "a9e62ec83fe3c22379e3e19195c8b3f6"
-Config.BOT_TOKEN = "6229797023:AAEZue90zF2D7M573-09sn6XetjJixP1UPE"
-Config.REDIS_HOST = "redis-18035.c270.us-east-1-3.ec2.cloud.redislabs.com" 
-#redis-14044.c91.us-east-1-3.ec2.cloud.redislabs.com
-Config.REDIS_PASS = "5E7W4uBrih6o2x75PJcbM68KI7Tls4re"
-#FEsHndW4SHTzcTJQWJYHpCDja6RmYnhf
-REDIS_PORT = "18035"
-#14044
-#.
-
-#.
+Config.AUTH_USERS = [2067727305, 5596561127]
+Config.API_ID = 14604313
+Config.API_HASH = "a8ee65e5057b3f05cf9f28b71667203a"
+Config.BOT_TOKEN = "5434548144:AAHO_we9xUXACkQ9PJHCMKYOee0ZZEyMlxk"
+Config.REDIS_HOST = "redis-10344.c275.us-east-1-4.ec2.cloud.redislabs.com"
+Config.REDIS_PASS = "2bdmUMBhHt1q7dalbm3MnKbOmWFMsgaP"
+REDIS_PORT = "10344"
