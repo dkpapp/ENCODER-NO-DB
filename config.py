@@ -1,21 +1,4 @@
 
-dkpgol5
-/
-Encoderofdhruv
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Beta Try the new code view
-Encoderofdhruv/config.py
-@dkpgol5
-dkpgol5 Update config.py
- 1 contributor
-25 lines (21 sloc)  840 Bytes
 import os
 import dotenv
 #import SmartEncoder.Database.db.myDB as db
